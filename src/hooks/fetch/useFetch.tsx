@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export const API_BASE_URL = 'dglserver-production.up.railway.app';
+export const API_BASE_URL = 'https://dglserver-production.up.railway.app';
 
 type FetchOptions = {
   url: string;
