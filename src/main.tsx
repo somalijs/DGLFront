@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import './app.css';
+import './application.css';
 import 'swiper/swiper-bundle.css';
 import 'simplebar-react/dist/simplebar.min.css';
 import App from './App.tsx';
