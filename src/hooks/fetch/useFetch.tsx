@@ -63,6 +63,7 @@ export default function useFetch() {
       setError(null);
       return { ok: true, data: result };
     } catch (err: any) {
+      console.log(err);
       return {
         ok: false,
         message: err.message || 'Server error, something went wrong',
@@ -97,6 +98,7 @@ export default function useFetch() {
     } catch (err: any) {
       setIsLoading(false);
       setError(err.message);
+      console.log(err);
       return {
         ok: false,
         message: err.message || 'Server error, something went wrong',
